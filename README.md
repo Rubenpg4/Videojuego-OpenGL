@@ -1,1 +1,1 @@
-# -Videojuego-OpenGL
+Videojuego de escritorio, realizado con la libreria gráfica OpenGL
