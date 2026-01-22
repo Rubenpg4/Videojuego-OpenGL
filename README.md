@@ -461,17 +461,6 @@ void igvCamara::orbital(float valX, float valY) {
 
 ## 💡 Sistema de Iluminación
 
-### 🔆 Modelo de Iluminación Phong
-
-El sistema implementa el modelo **Phong completo**:
-
-```mermaid
-flowchart LR
-    A[Luz Ambiental<br/>I_a * k_a] --> D[Color Final]
-    B[Luz Difusa<br/>I_d * k_d * max(N·L, 0)] --> D
-    C[Luz Especular<br/>I_s * k_s * max(R·V, 0)^n] --> D
-```
-
 ### 🎚️ Parámetros de Fuente de Luz
 
 ```cpp
